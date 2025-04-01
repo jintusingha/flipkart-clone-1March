@@ -1,0 +1,97 @@
+.order-history-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.order-history-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2874f0;
+}
+
+.order-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.order-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.order-id {
+  font-weight: bold;
+  color: #555;
+}
+
+.order-customer {
+  margin-left: 5px;
+  color: #333;
+}
+
+.toggle-icon {
+  font-size: 22px;
+  color: #2874f0;
+}
+
+.order-details {
+  padding: 10px 0;
+  border-top: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+
+.order-details p,
+.order-details li {
+  margin: 5px 0;
+}
+
+.order-details ul {
+  padding-left: 20px;
+}
+
+.reorder-btn,
+.delete-btn {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px 12px;
+  background-color: #2874f0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn {
+  background-color: #ff3e3e;
+}
+
+.reorder-btn:hover {
+  background-color: #0b5ed7;
+}
+
+.delete-btn:hover {
+  background-color: #e60023;
+}

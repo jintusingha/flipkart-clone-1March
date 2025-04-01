@@ -1,0 +1,14 @@
+.checkout-container {
+  margin-top: 50px;
+}
+
+.cart-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
